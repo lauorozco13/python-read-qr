@@ -7,8 +7,8 @@ class MarkDetector:
         self.name = name
         self.frame = None
         self.result = None
-    self.time = time
-    self.image = None
+        self.time = time
+        self.image = None
 
     def update (self):
         while True:

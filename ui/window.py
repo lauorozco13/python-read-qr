@@ -1,4 +1,4 @@
-from Tkinter import Tk, Canvas, NW, Label
+from tkinter import Tk, Canvas, NW, Label
 
 class Window:
     def __init__(self, title = "Window", width = None, height = None, x = None, y = None):

@@ -43,7 +43,6 @@ class Attendance:
         result = None
         frame = self.capture.read()
 
-        
         if self.capture.grabbed is None or frame is None:
             return
 
